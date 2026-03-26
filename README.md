@@ -30,5 +30,5 @@ This project is an ESP32-based RFID attendance system built step-by-step.
 
 ## 👨‍💻 Author
 
-**Chandu R**
-- GitHub: https://github.com/heychandu
+**Chandu R**  
+🔗 GitHub: [@heychandu](https://github.com/heychandu)
