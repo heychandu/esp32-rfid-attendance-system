@@ -28,6 +28,5 @@ UID: A3 7F 2C 91
 
 ## 👨‍💻 Author
 
-**Chandu R**
-
-- GitHub: https://github.com/heychandu
+**Chandu R**  
+🔗 GitHub: [@heychandu](https://github.com/heychandu)
