@@ -1,8 +1,34 @@
-# esp32-rfid-attendance-system
-ESP32-based RFID Attendance System with MFRC522. Reads UID and displays via Serial Monitor. Built step-by-step for IoT learning.
+# ESP32 RFID Attendance System
+
+> Developed by **Chandu R**
+
+---
+
+## 📌 Overview
+This project is an ESP32-based RFID attendance system built step-by-step.
+
+---
+
+## 🟢 Current Version
+
+### V1 – Basic RFID Reader
+- Reads RFID UID
+- Displays output in Serial Monitor
+- Uses SPI communication
+
+📂 Location: `V1_basic_read/`
+
+---
+
+## 🧠 Technologies Used
+- ESP32
+- MFRC522 RFID Module
+- SPI Communication
+- Arduino IDE
+
+---
 
 ## 👨‍💻 Author
 
 **Chandu R**
-
 - GitHub: https://github.com/heychandu

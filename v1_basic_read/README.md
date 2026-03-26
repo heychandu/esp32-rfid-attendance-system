@@ -7,6 +7,10 @@ Reads RFID card UID using ESP32 and MFRC522 via SPI.
 - ESP32
 - MFRC522 RFID Module
 
+## 🔌 Circuit Diagram
+
+![Circuit](../../docs/images/v1_circuit.png)
+
 ## ⚙️ Connections
 - SDA (SS) → GPIO 5  
 - SCK → GPIO 18  
