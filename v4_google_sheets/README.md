@@ -61,8 +61,10 @@ Upgrades the attendance system to cloud-based logging using Google Sheets. Autom
 - Displays user name on LCD  
 - Shows attendance time in format:  
 
-    John
-    IN: 09:32:10
+```
+John
+IN: 09:32:10
+```
 
 - Logs data in Google Sheets:
   - Name  
