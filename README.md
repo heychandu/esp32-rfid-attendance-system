@@ -28,7 +28,7 @@ Each version adds new features, improving functionality, user interaction, and r
 
 ## System Workflow
 
- Scan Card → 🔍 Read UID → 👤 Identify User → 🌐 Send Data → 📊 Process Attendance → 📟 Display Result → 🔊 Feedback
+ Scan Card →  Read UID →  Identify User →  Send Data →  Process Attendance →  Display Result →  Feedback
 
 ---
 
