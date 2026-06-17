@@ -1,10 +1,10 @@
-# 📡 ESP32 RFID Attendance System
+# ESP32 RFID Attendance System
 
 > Developed by **Chandu R**
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project is a **smart RFID-based attendance system** built using ESP32, developed progressively from a basic RFID reader into a **full cloud-connected attendance solution**.
 
@@ -12,27 +12,27 @@ Each version adds new features, improving functionality, user interaction, and r
 
 ---
 
-## 🚀 Features
+## Features
 
-* 📡 RFID Card Detection
-* 📟 LCD Display Interface
-* 🔊 Buzzer Feedback
-* 💡 LED Indication
-* 🔁 IN / OUT Attendance Logic
-* 🧠 UID-based User Identification
-* 🌐 Cloud Integration (Google Sheets)
-* 🔘 Mode Switching (Attendance / Register)
-* ⚙️ Modular & Scalable Design
-
----
-
-## 🧠 System Workflow
-
-👉 Scan Card → 🔍 Read UID → 👤 Identify User → 🌐 Send Data → 📊 Process Attendance → 📟 Display Result → 🔊 Feedback
+* RFID Card Detection
+* LCD Display Interface
+* Buzzer Feedback
+* LED Indication
+* IN / OUT Attendance Logic
+*  UID-based User Identification
+* Cloud Integration (Google Sheets)
+* Mode Switching (Attendance / Register)
+* Modular & Scalable Design
 
 ---
 
-## 🧩 Hardware Used
+## System Workflow
+
+ Scan Card → 🔍 Read UID → 👤 Identify User → 🌐 Send Data → 📊 Process Attendance → 📟 Display Result → 🔊 Feedback
+
+---
+
+## Hardware Used
 
 * ESP32
 * MFRC522 RFID Module
@@ -43,7 +43,7 @@ Each version adds new features, improving functionality, user interaction, and r
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 * Embedded C/C++ (Arduino IDE)
 * SPI Communication (RFID)
@@ -54,7 +54,7 @@ Each version adds new features, improving functionality, user interaction, and r
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 rfid-attendance-system/
@@ -67,16 +67,16 @@ rfid-attendance-system/
 
 ---
 
-## 🧪 Project Versions
+## Project Versions
 
-### 🟢 V1 – Basic RFID Reader
+### V1 – Basic RFID Reader
 
 * Reads RFID UID
 * Displays output in Serial Monitor
 
 ---
 
-### 🟡 V2 – LCD + Feedback
+### V2 – LCD + Feedback
 
 * LCD display
 * Buzzer + LED indication
@@ -84,7 +84,7 @@ rfid-attendance-system/
 
 ---
 
-### 🔵 V3 – Attendance Logic
+### V3 – Attendance Logic
 
 * UID-based user identification
 * IN / OUT attendance tracking
@@ -92,7 +92,7 @@ rfid-attendance-system/
 
 ---
 
-### 🟣 V4 – Cloud Attendance System
+### V4 – Cloud Attendance System
 
 * WiFi-based Google Sheets integration
 * Real-time attendance logging
@@ -101,7 +101,7 @@ rfid-attendance-system/
 
 ---
 
-### 🔴 V5 – Smart Attendance System
+### V5 – Smart Attendance System
 
 * Register mode for new cards
 * Button-based mode switching
@@ -112,23 +112,7 @@ rfid-attendance-system/
 
 ---
 
-## 📸 Demo
-
-*(Images / demo video will be added soon)*
-
----
-
-## 🔮 Future Scope
-
-* 📱 Mobile App Interface
-* 📊 Web Dashboard for Attendance
-* ☁️ Firebase / Real-time Database
-* 🧠 Face Recognition Integration
-* 🔐 Secure Authentication System
-
----
-
-## 👨‍💻 Author
+## Author
 
 **Chandu R**
-🔗 GitHub: [@heychandu](https://github.com/heychandu)
+GitHub: [@heychandu](https://github.com/heychandu)
