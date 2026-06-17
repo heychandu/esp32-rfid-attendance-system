@@ -1,79 +1,92 @@
-# 🔵 V3 - Attendance Logic (ESP32)
+# V3 - Attendance Logic (ESP32)
 
-## 📌 Description
+## Description
+
 Implements attendance logic by identifying RFID cards, assigning user names, and tracking IN/OUT status.
 
 ---
 
-## 🧠 Features
-- Recognizes registered RFID cards  
-- Maps UID to user name  
-- Marks attendance (IN/OUT)  
-- Prevents duplicate entries  
-- Displays result on LCD  
-- Provides buzzer + LED feedback  
+## Features
+
+- Recognizes registered RFID cards
+- Maps UID to user names
+- Marks attendance (IN/OUT)
+- Prevents duplicate entries
+- Displays results on LCD
+- Provides buzzer and LED feedback
 
 ---
 
-## 🧠 Hardware
-- ESP32  
-- MFRC522 RFID Module  
-- I2C LCD (16x2)  
-- Green LED  
-- Buzzer  
+## Hardware
+
+- ESP32
+- MFRC522 RFID Module
+- I2C LCD (16x2)
+- Green LED
+- Buzzer
 
 ---
 
-## 🔌 Circuit Diagram
+## Circuit Diagram
 
 ![Circuit](circuit/v3_circuit.png)
 
 ---
 
-## ⚙️ Connections
+## Connections
 
-### 📡 RFID (SPI)
-- SDA (SS) → GPIO 5  
-- SCK → GPIO 18  
-- MOSI → GPIO 23  
-- MISO → GPIO 19  
-- RST → GPIO 4  
-- VCC → 3.3V ⚠️  
-- GND → GND  
+### RFID (SPI)
 
-### 📟 LCD (I2C)
-- SDA → GPIO 21  
-- SCL → GPIO 22  
-- VCC → 5V  
-- GND → GND  
+| MFRC522 Pin | ESP32 Pin |
+|------------|-----------|
+| SDA (SS) | GPIO 5 |
+| SCK | GPIO 18 |
+| MOSI | GPIO 23 |
+| MISO | GPIO 19 |
+| RST | GPIO 4 |
+| VCC | 3.3V |
+| GND | GND |
 
-### 🔊 Output Devices
-- Green LED → GPIO 26  
-- Buzzer → GPIO 25  
+### LCD (I2C)
 
----
+| LCD Pin | ESP32 Pin |
+|---------|-----------|
+| SDA | GPIO 21 |
+| SCL | GPIO 22 |
+| VCC | 5V |
+| GND | GND |
 
-## 🧪 Output
+### Output Devices
 
-- Displays user name on LCD  
-- Marks attendance as IN or OUT  
-- Provides audio and visual feedback  
-
-**System Flow:**  
-👉 Scan Card → 🔍 Identify UID → 👤 Match User → 📊 Mark IN/OUT → 📟 Display Result
+| Device | ESP32 Pin |
+|---------|-----------|
+| Green LED | GPIO 26 |
+| Buzzer | GPIO 25 |
 
 ---
 
-## 🚀 Improvements from V2
+## Output
 
-- Added UID-based user identification  
-- Implemented IN/OUT attendance logic  
-- Prevented duplicate scanning issues  
-- Improved system intelligence  
+- Displays user name on the LCD
+- Marks attendance as IN or OUT
+- Provides audio and visual feedback
+
+### System Flow
+
+Scan Card → Identify UID → Match User → Mark IN/OUT → Display Result
 
 ---
 
-## 👨‍💻 Author
+## Improvements from V2
+
+- Added UID-based user identification
+- Implemented IN/OUT attendance logic
+- Prevented duplicate scanning issues
+- Improved system intelligence
+
+---
+
+## Author
 
 **Chandu R**  
-🔗 GitHub: [@heychandu](https://github.com/heychandu)
+GitHub: https://github.com/heychandu
